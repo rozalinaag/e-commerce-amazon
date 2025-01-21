@@ -5,7 +5,7 @@ import './Header.css';
 
 export default function Header() {
   return (
-    <div>
+    <div className="wrapper">
       <div className="header__logo">
         <StorefrontIcon className="header__logoImage" fontSize="large" />
         <h2 className="header__logoTitle">eShop</h2>
@@ -29,9 +29,9 @@ export default function Header() {
 
         <div className="nav__item">
           <span className="nav__itemLineOne">
-            <ShoppingBasketIcon />
+            <ShoppingBasketIcon className="itemBasket" />
           </span>
-          <span className="nav__itemLineTwo">0</span>
+          <span className="nav__itemLineTwo nav__basketCount">0</span>
         </div>
       </div>
     </div>

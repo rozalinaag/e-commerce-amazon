@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(25, 24, 24);
+  color: white;
+}
+
+.header__logoImage {
+  color: #ff9f00;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+}
+
+.header__searchInput {
+  width: 1000px;
+  max-width: 70%;
+  height: 30px;
+  border: none;
+}
+
+.header__searchIcon {
+  color: black;
+  background-color: #ff9f00;
+  padding: 4px;
+}
