@@ -13,7 +13,7 @@
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 .header__search {
@@ -22,8 +22,7 @@
 }
 
 .header__searchInput {
-  width: 1000px;
-  max-width: 70%;
+  width: 500px;
   height: 30px;
   border: none;
 }
@@ -32,4 +31,15 @@
   color: black;
   background-color: #de8e0d;
   padding: 4px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
