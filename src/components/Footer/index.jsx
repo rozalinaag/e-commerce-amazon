@@ -1,5 +1,5 @@
 import 'style.css';
 
-export default function index() {
+export default function Footer() {
   return <div className="wrapper"></div>;
 }
