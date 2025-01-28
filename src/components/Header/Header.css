@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(25, 24, 24);
+  background-color: #141921;
   color: white;
   padding: 0 20px;
+  height: 60px;
 }
 
 .header__logoImage {
@@ -45,4 +46,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.nav__itemLineTwo {
+  font-weight: 800;
+}
+
+.nav__itemBasket {
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }

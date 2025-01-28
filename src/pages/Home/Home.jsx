@@ -1,5 +1,5 @@
 import './style.css';
-import back from './img/back.jpg';
+import back from './img/back.png';
 import Product from '../../components/Product/Product';
 
 export default function Home() {
