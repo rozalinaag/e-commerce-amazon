@@ -8,14 +8,10 @@
   height: 60px;
 }
 
-.header__logoImage {
-  color: #ff9f00;
-}
-
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 20px;
+  cursor: pointer;
 }
 
 .header__search {
@@ -46,6 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 
 .nav__itemLineTwo {
@@ -56,4 +53,5 @@
   display: flex;
   align-items: center;
   gap: 7px;
+  cursor: pointer;
 }
