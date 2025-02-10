@@ -4,7 +4,7 @@ import Product from '../../components/Product/Product';
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       <div className="home">
         <div className="home__container">
           <img src={back} alt="background" className="home__image" />
